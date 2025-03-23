@@ -11,7 +11,7 @@ export class CarsController {
 
     @Get()
     getAllCars(){
-        return this.carsService.findAll()
+        return this.carsService.findAlli()
     }
 
     @Get('id/:id')

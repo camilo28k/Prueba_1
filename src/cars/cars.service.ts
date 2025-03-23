@@ -23,7 +23,7 @@ export class CarsService {
         }
     ];
 
-    findAll(){
+    findAlli(){
         return this.cars
     }
 
@@ -57,3 +57,4 @@ export class CarsService {
     }
 
 }
+
